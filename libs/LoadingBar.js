@@ -22,8 +22,8 @@ class LoadingBar{
 		const bar = document.createElement("div");
 		bar.style.background = '#22a';
 		bar.style.width = '50%';
-		bar.style.borderRadius = '10px';
-		bar.style.height = '100%';
+		bar.style.borderRadius = '30px';
+		bar.style.height = '150%';
 		bar.style.width = '0';
 		barBase.appendChild(bar);
 		this.progressBar = bar;
