@@ -17,12 +17,12 @@ class LoadingBar{
 		barBase.style.width = '50%';
 		barBase.style.minWidth = '250px';
 		barBase.style.borderRadius = '10px';
-		barBase.style.height = '15px';
+		barBase.style.height = '30px';
 		this.domElement.appendChild(barBase);
 		const bar = document.createElement("div");
 		bar.style.background = '#22a';
 		bar.style.width = '50%';
-		bar.style.borderRadius = '30px';
+		bar.style.borderRadius = '50px';
 		bar.style.height = '150%';
 		bar.style.width = '0';
 		barBase.appendChild(bar);
