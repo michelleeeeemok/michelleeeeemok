@@ -23,7 +23,7 @@ class VRButton{
 
 			const button = document.createElement( 'button' );
 			button.style.display = 'none';
-            button.style.height = '40px';
+            button.style.height = '60px';
             
 			navigator.xr.isSessionSupported( this.sessionMode ).then( ( supported ) => {
 
@@ -188,7 +188,7 @@ class VRButton{
         element.style.borderRadius = '4px';
         element.style.background = (active) ? 'rgba(20,150,80,1)' : 'rgba(180,20,20,1)';
         element.style.color = '#fff';
-        element.style.font = `normal ${fontSize}px sans-serif`;
+        element.style.font = `normal ${fontSize}px Poppins`;
         element.style.textAlign = 'center';
         element.style.opacity = '0.5';
         element.style.outline = 'none';
